@@ -1,3 +1,3 @@
 <settings>
-    <apikey>ENTERYOURAPIKEY</apikey>
+    <apikey>$APPLITOOLS_API_KEY</apikey>
 </settings>
