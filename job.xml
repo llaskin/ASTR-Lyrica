@@ -4,7 +4,7 @@
             <configuration>
                 <applitools>applitoolsConf.xml</applitools>
                 <driver>chrome</driver> <!-- Additional options: firefox, safari, ie, edge -->
-                <viewport width="1200" height="800"></viewport>
+                <viewport width="800" height="600"></viewport>
                 <visualGrid>
                     <browser type="chrome" width="1300" height="600" />
                     <browser type="chrome" width="1100" height="600" />
@@ -38,7 +38,6 @@
                     <foreach>
                         <action type="navigate">exp[%url%]</action>
                         <action type="sleep">1000</action>
-                        <action type="executejs">document.querySelector('.isi-block').style.visibility = 'hidden';</action>
                         <action type="checkWindow">exp[%url%]</action>
                     </foreach>
                 </action>
